@@ -23,7 +23,7 @@ import PackageDescription
 
 let package = Package(
   name: "Firebase",
-  platforms: [.iOS(.v9), .macOS(.v10_11), .tvOS(.v10)],
+  platforms: [.iOS(.v12), .macOS(.v10_11), .tvOS(.v10)],
   products: [
     // Products define the executables and libraries produced by a package, and make them visible to
     // other packages.

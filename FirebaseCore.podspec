@@ -16,7 +16,7 @@ Firebase Core includes FIRApp and FIROptions which provide central configuration
     :tag => 'Core-' + s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/Firebase'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
   s.tvos.deployment_target = '10.0'
   s.watchos.deployment_target = '6.0'
@@ -53,7 +53,7 @@ Firebase Core includes FIRApp and FIROptions which provide central configuration
     'OTHER_CFLAGS' => '-fno-autolink'
   }
   s.test_spec 'unit' do |unit_tests|
-    unit_tests.platforms = {:ios => '8.0', :osx => '10.11', :tvos => '10.0'}
+    unit_tests.platforms = {:ios => '9.0', :osx => '10.11', :tvos => '10.0'}
     unit_tests.source_files = 'FirebaseCore/Tests/Unit/**/*.[mh]'
     unit_tests.requires_app_host = true
     unit_tests.dependency 'OCMock'
@@ -61,7 +61,7 @@ Firebase Core includes FIRApp and FIROptions which provide central configuration
   end
 
   s.test_spec 'swift-unit' do |swift_unit_tests|
-    swift_unit_tests.platforms = {:ios => '8.0', :osx => '10.11', :tvos => '10.0'}
+    swift_unit_tests.platforms = {:ios => '9.0', :osx => '10.11', :tvos => '10.0'}
     swift_unit_tests.source_files = 'FirebaseCore/Tests/SwiftUnit/**/*.swift',
                                     'FirebaseCore/Tests/SwiftUnit/**/*.h',
                                     'FirebaseCore/Tests/SwiftUnit/SwiftTestingUtilities/*'

@@ -22,7 +22,7 @@ Simplify your app development, grow your user base, and monetize more effectivel
     "CoreOnly/README.md"
   ]
   s.social_media_url = 'https://twitter.com/Firebase'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
   s.tvos.deployment_target = '10.0'
 
@@ -49,7 +49,7 @@ Simplify your app development, grow your user base, and monetize more effectivel
       }
     end
     # Standard platforms PLUS watchOS.
-    ss.ios.deployment_target = '8.0'
+    ss.ios.deployment_target = '9.0'
     ss.osx.deployment_target = '10.11'
     ss.tvos.deployment_target = '10.0'
     ss.watchos.deployment_target = '6.0'
@@ -115,7 +115,7 @@ Simplify your app development, grow your user base, and monetize more effectivel
     ss.dependency 'Firebase/CoreOnly'
     ss.dependency 'FirebaseMessaging', '~> 4.6.1'
     # Standard platforms PLUS watchOS.
-    ss.ios.deployment_target = '8.0'
+    ss.ios.deployment_target = '9.0'
     ss.osx.deployment_target = '10.11'
     ss.tvos.deployment_target = '10.0'
     ss.watchos.deployment_target = '6.0'

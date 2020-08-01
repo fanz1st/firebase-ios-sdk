@@ -16,7 +16,7 @@ Firebase Storage provides robust, secure file uploads and downloads from Firebas
     :tag => 'Storage-' + s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/Firebase'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
   s.tvos.deployment_target = '10.0'
   # spec won't validate or push with FirebaseAuth as a test spec dependency.
@@ -63,7 +63,7 @@ Firebase Storage provides robust, secure file uploads and downloads from Firebas
   end
 
   s.test_spec 'swift-integration' do |swift_int_tests|
-    swift_int_tests.platforms = {:ios => '8.0', :osx => '10.11', :tvos => '10.0'}
+    swift_int_tests.platforms = {:ios => '9.0', :osx => '10.11', :tvos => '10.0'}
     swift_int_tests.source_files = 'FirebaseStorage/Tests/SwiftIntegration/*.swift'
     swift_int_tests.requires_app_host = true
     swift_int_tests.resources = 'FirebaseStorage/Tests/Integration/Resources/1mb.dat',
